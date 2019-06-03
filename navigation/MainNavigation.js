@@ -6,10 +6,6 @@ import HomePage from '../Screens/HomePage';
     Home: { screen: HomePage },
     Blank: { screen: BlankPage }
 },
-
-    /*await AsyncStorage.getItem('Present_user_id') != '') ? {    
-        initialRouteName: 'listing',
-      } : {initialRouteName: 'auth',}*/
       {
         initialRouteName: 'Home',
         headerMode: 'none',
