@@ -1,5 +1,4 @@
 
-// src/services/push-notification.js
 const PushNotification = require('react-native-push-notification')
 
 export function setupPushNotification(handleNotification) {
